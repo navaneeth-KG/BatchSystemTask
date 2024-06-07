@@ -1,0 +1,8 @@
+.gradient {
+  border-radius: 50%;
+  width: 327px;
+  height: 237px;
+  filter: blur(30px);
+  position: absolute;
+  z-index: -1;
+}

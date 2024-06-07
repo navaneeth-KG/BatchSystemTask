@@ -1,0 +1,16 @@
+.cta {
+  margin: 0 150px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+.cta-gradient{
+  position: absolute;
+  background-image: linear-gradient(to left bottom, #ff5555, #ff8053, #ffa55e, #ffc776, #fde598);
+  z-index: -1;
+  top: -100px;
+  left: -100px;
+
+}

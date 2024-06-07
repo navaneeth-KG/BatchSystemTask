@@ -1,0 +1,19 @@
+.faqs-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+}
+.faq{
+    margin: 0 150px 150px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.faq h1{
+    font-size: 48px;
+}
+.faq h3{
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #FF5555;
+}

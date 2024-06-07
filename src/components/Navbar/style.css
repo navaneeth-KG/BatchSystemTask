@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 150px 0px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-left h1 {
+  font-size: 30px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar ul li {
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar ul li:hover{
+    color: #FF5555;
+  }
+

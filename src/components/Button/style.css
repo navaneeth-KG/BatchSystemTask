@@ -1,0 +1,15 @@
+.btn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 50px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

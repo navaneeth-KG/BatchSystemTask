@@ -1,0 +1,12 @@
+.faq-card{
+    padding: 30px;
+    border-radius: 8px;
+    /* width: 535px; */
+}
+.faq-card h2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.faq-card p{
+    font-size: 18px;
+}
