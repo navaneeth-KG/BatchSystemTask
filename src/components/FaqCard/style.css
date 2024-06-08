@@ -3,6 +3,11 @@
     border-radius: 8px;
     /* width: 535px; */
 }
+.faq-card:hover{
+    
+    transform: scale(1.04);
+    transition:  0.5s ease-in;
+}
 .faq-card h2{
     font-size: 28px;
     font-weight: bolder;

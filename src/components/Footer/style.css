@@ -13,6 +13,7 @@
 .div {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 20px;
 }
 .inp-container {
@@ -29,12 +30,33 @@
   outline: none;
 }
 
-.div p:hover{
+.div p:hover {
   cursor: pointer;
   color: gray;
 }
+.contact div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 @media screen and (max-width: 1024px) {
   .footer {
-    display: none;
+    /* display: none; */
+    margin: 10px 10px;
+
+    width: 100%;
+    flex-direction: column;
   }
+
+  .news-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ 
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Gradient from '../Gradient/Gradient';
+import { motion } from 'framer-motion';
 import './style.css';
 
 const Features = () => {
@@ -7,8 +8,18 @@ const Features = () => {
     <div className="features">
       <div className="row row1">
         <Gradient className="feature1-gradient-1" />
-        <img src="/feature1.svg" alt="" className="feature1-img" />
-        <div className="feature1">
+        <img
+          src="/feature1.svg"
+          alt=""
+          className="feature1-img"
+          
+        />
+        <motion.div
+          className="feature1"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 'all', once: true }}
+        >
           <div>
             <h3>FEATURES</h3>
             <h1>Uifry Premium</h1>
@@ -42,12 +53,14 @@ const Features = () => {
             Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
             faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
           </p>
-          <Gradient className='feature1-gradient-2'/>
-        </div>
+          <Gradient className="feature1-gradient-2" />
+        </motion.div>
       </div>
       <div className="row row2">
         {' '}
-        <div className="feature2">
+        <motion.div className="feature2"    initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 'all', once: true }}>
           <div>
             {' '}
             <h3>ADVANTAGES</h3>
@@ -66,14 +79,16 @@ const Features = () => {
             sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
             suspendisse aliquam.
           </p>
-        </div>
+        </motion.div>
         <img src="/feature2.svg" alt="" className="feature2-img" />
-        <Gradient className='feature2-gradient'/>
+        <Gradient className="feature2-gradient" />
       </div>
       <div className="row row3">
-        <Gradient className='feature3-gradient'/>
+        <Gradient className="feature3-gradient" />
         <img src="/feature3.svg" alt="" className="feature3-img" />
-        <div className="feature3">
+        <motion.div className="feature3"    initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 'all', once: true }}>
           <div className="logo-text">
             <img src="/starIcon.svg" alt="" />
             <h2>Fully Customizable</h2>
@@ -86,7 +101,7 @@ const Features = () => {
             sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
             suspendisse aliquam.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

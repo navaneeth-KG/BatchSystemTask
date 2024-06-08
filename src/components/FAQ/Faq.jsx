@@ -1,5 +1,6 @@
 import React from 'react';
 import FaqCard from '../FaqCard/FaqCard';
+import { motion } from 'framer-motion';
 import './style.css';
 const data = {
   heading: 'The Best Financial Accounting App Ever!',

@@ -5,18 +5,19 @@ import './style.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="div">
-        <h1>
+      <div className="div contact">
+        <div>
           <img src="/Vector.svg" alt="" />
-          uifry
-        </h1>
-        <p>
-          <img src="/mail.svg" alt="" /> Help@Frybix.com
-        </p>
-        <p>
+          <h1>Uifry</h1>
+        </div>
+        <div>
+          <img src="/mail.svg" alt="" />
+          <p>Help@Frybix.com</p>
+        </div>
+        <div>
           <img src="/phone.svg" alt="" />
-          +1234 456 678 89
-        </p>
+          <p>+1234 456 678 89</p>
+        </div>
       </div>
       <div className="div">
         <h2>Links</h2>
@@ -37,7 +38,7 @@ const Footer = () => {
         <p>Live Chat</p>
         <p>Reviews</p>
       </div>{' '}
-      <div className="div">
+      <div className="div news-div">
         <h2>Newsletter</h2>
         <p>stay Up To Date</p>
         <div className="inp-container">
