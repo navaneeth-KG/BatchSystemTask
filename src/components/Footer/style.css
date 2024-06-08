@@ -34,7 +34,7 @@
   cursor: pointer;
   color: gray;
 }
-.contact div{
+.contact div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,13 +42,20 @@
 }
 @media screen and (max-width: 1024px) {
   .footer {
-    /* display: none; */
-    margin: 10px 10px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
 
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
+
+    box-sizing: border-box;
+    padding: 10px;
   }
 
+  .div {
+    width: 100%;
+  }
   .news-div {
     display: flex;
     flex-direction: column;
@@ -57,6 +64,10 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 90vw;
   }
- 
+  .inp-container {
+    flex-direction: column;
+    width: 100%;
+  }
 }
