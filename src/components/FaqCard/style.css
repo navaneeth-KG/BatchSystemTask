@@ -15,3 +15,10 @@
 .faq-card p{
     font-size: 18px;
 }
+
+#dark .faq-card h2{
+    color: black;
+}
+#dark .faq-card p{
+    color:black;
+}

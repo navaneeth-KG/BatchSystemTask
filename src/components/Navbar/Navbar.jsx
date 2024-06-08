@@ -4,9 +4,8 @@ import Button from '../Button/Button';
 import { useState } from 'react';
 import MenuList from '../MenuList/MenuList';
 
-const Navbar = () => {
-
-  const[isInView,setIsInView]=useState(false)
+const Navbar = ({ theme, toggleTheme }) => {
+  const [isInView, setIsInView] = useState(false);
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -24,12 +23,25 @@ const Navbar = () => {
       </div>
 
       <Button className="download-btn">Download</Button>
-      
-      <div className="hamburger" onClick={()=>{setIsInView(true)}}>
+
+      <Button className="theme-btn" onClick={toggleTheme}>
+        {theme == 'light' ? (
+          <i className="fa-solid fa-moon"></i>
+        ) : (
+          <i className="fa-solid fa-sun"></i>
+        )}
+      </Button>
+
+      <div
+        className="hamburger"
+        onClick={() => {
+          setIsInView(true);
+        }}
+      >
         {' '}
         <i class="fa-solid fa-bars"></i>
       </div>
-      {isInView&&<MenuList setIsInView={setIsInView}/>}
+      {isInView && <MenuList setIsInView={setIsInView} />}
     </nav>
   );
 };

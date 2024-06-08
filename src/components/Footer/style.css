@@ -40,6 +40,10 @@
   justify-content: center;
   gap: 10px;
 }
+
+#dark .div p{
+  color: white;
+}
 @media screen and (max-width: 1024px) {
   .footer {
     margin-right: 0;
