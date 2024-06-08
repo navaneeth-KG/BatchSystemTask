@@ -5,7 +5,7 @@ import './style.css';
 const Features = () => {
   return (
     <div className="features">
-      <div className="row">
+      <div className="row row1">
         <Gradient className="feature1-gradient-1" />
         <img src="/feature1.svg" alt="" className="feature1-img" />
         <div className="feature1">
@@ -16,7 +16,7 @@ const Features = () => {
 
           <div className="logo-text">
             <img src="/star-05.svg" alt="" />
-            <h4>budgeting intervals</h4>
+            <h4>Budgeting Intervals</h4>
           </div>
 
           <p>
@@ -26,7 +26,7 @@ const Features = () => {
           <div className="logo-text">
             {' '}
             <img src="/cube-02.svg" alt="" />
-            <h4>budgeting intervals</h4>
+            <h4>Budgeting Intervals</h4>
           </div>
 
           <p>
@@ -35,7 +35,7 @@ const Features = () => {
           </p>
           <div className="logo-text">
             <img src="/cube-04.svg" alt="" />
-            <h4>budgeting intervals</h4>
+            <h4>Budgeting Intervals</h4>
           </div>
 
           <p>
@@ -45,7 +45,7 @@ const Features = () => {
           <Gradient className='feature1-gradient-2'/>
         </div>
       </div>
-      <div className="row">
+      <div className="row row2">
         {' '}
         <div className="feature2">
           <div>
@@ -70,7 +70,7 @@ const Features = () => {
         <img src="/feature2.svg" alt="" className="feature2-img" />
         <Gradient className='feature2-gradient'/>
       </div>
-      <div className="row">
+      <div className="row row3">
         <Gradient className='feature3-gradient'/>
         <img src="/feature3.svg" alt="" className="feature3-img" />
         <div className="feature3">

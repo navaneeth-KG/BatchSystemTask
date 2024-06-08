@@ -37,3 +37,20 @@
     #fde598
   );
 }
+.users-imgs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .testimonial-main {
+      flex-direction: column;
+    }
+    .testimonial{
+        margin: 10px;
+    }
+    .test-img{
+        width: 100%;
+    }
+  }
+  

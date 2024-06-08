@@ -11,7 +11,7 @@ const Testimonial = () => {
       </h1>
       <div className="testimonial-main">
         <Gradient className="testimonial-gradient" />
-        <img src="/testimonial.svg" alt="" width={713} />
+        <img src="/testimonial.svg" alt="" width={713} className='test-img' />
         <div className="test-right">
           <h2>The Best Financial Accounting App Ever!</h2>
           <p>
@@ -21,8 +21,15 @@ const Testimonial = () => {
             diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor
             neque lorem sapien, suspendisse aliquam.”
           </p>
-          <div className="users-imgs"></div>
-          <p>Nick Jonas</p>
+          <div className="users-imgs">
+            <img src="/Group 28.svg" alt="" />
+            <img src="/Group 27.svg" alt="" />
+            <img src="/Group 29.svg" alt="" />
+            <img src="/Group 30.svg" alt="" />
+            <img src="/Group 31.svg" alt="" />
+
+          </div>
+          <h4>Nick Jonas</h4>
         </div>
       </div>
     </div>

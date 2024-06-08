@@ -1,8 +1,12 @@
 import React from 'react';
 import './style.css';
 import Button from '../Button/Button';
+import { useState } from 'react';
+import MenuList from '../MenuList/MenuList';
 
 const Navbar = () => {
+
+  const[isInView,setIsInView]=useState(false)
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -19,7 +23,13 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <Button>Download</Button>
+      <Button className="download-btn">Download</Button>
+      
+      <div className="hamburger" onClick={()=>{setIsInView(true)}}>
+        {' '}
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      {isInView&&<MenuList setIsInView={setIsInView}/>}
     </nav>
   );
 };

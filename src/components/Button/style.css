@@ -13,3 +13,6 @@
     align-items: center;
     gap: 10px;
 }
+.btn:hover{
+    scale:1.01
+}

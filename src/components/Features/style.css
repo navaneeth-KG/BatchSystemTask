@@ -84,3 +84,24 @@
     top: 400px;
 
 }
+
+
+@media screen and (max-width: 1024px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features{
+    padding: 0;
+    margin: 10px;
+  }
+
+  .feature1-img,.feature2-img,.feature3-img{
+    width: 100%;
+  }
+  .row1,.row3{
+    flex-direction: column-reverse;
+  }
+  }
+  

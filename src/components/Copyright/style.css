@@ -4,6 +4,15 @@
   border-top: 2px solid transparent;
   border-image: linear-gradient(90deg, #dddcdc, rgb(0, 0, 0), #dddcdc);
   border-image-slice: 1;
-
   padding: 50px 0;
+  
 }
+.copyright p{
+  font-size: 16px;
+}
+@media screen and (max-width: 1024px) {
+
+  .copyright{
+    margin: 10px;
+  }
+    }

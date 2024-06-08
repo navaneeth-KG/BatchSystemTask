@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 50px 150px 0px;
+  
 }
 .navbar-left {
   display: flex;
@@ -29,4 +30,26 @@
 .navbar ul li:hover{
     color: #FF5555;
   }
-
+.hamburger{
+    display: none
+}
+  @media screen and (max-width: 1024px) {
+  .navbar ul{
+    display: none;
+  }
+  .navbar {
+    margin: 0 ;
+    padding: 10px;
+  }
+  .download-btn{
+    display: none;
+  }
+  .hamburger{
+    display: block
+}
+.navbar ul li:hover{
+  color: #FFFFFF;
+}
+  }
+  
+  

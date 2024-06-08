@@ -1,19 +1,39 @@
-.faqs-container{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap:20px;
+.faqs-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
 }
-.faq{
-    margin: 0 150px 150px;
+.faqs-container2 {
+  display: none;
+}
+.faq {
+  margin: 0 150px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq h1 {
+  font-size: 48px;
+}
+.faq h3 {
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: #ff5555;
+}
+
+@media screen and (max-width: 1024px) {
+  .faqs-container {
+    display: none;
+  }
+.faqs-container2{
     display: flex;
     flex-direction: column;
-    gap:20px
 }
-.faq h1{
-    font-size: 48px;
-}
-.faq h3{
-    font-size: 18px;
-    letter-spacing: 5px;
-    color: #FF5555;
+
+  .faq {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

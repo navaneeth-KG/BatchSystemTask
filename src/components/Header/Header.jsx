@@ -1,6 +1,7 @@
 import Button from '../Button/Button';
 import Gradient from '../Gradient/Gradient';
 import React from 'react';
+
 import './style.css';
 
 const Header = () => {
@@ -26,7 +27,8 @@ const Header = () => {
         </div>
 
         <div className="img-cont">
-          <img src="/headerImg1.svg" alt="" width={500} />
+          <img src="/layered.svg" alt="" className='layered'/>
+          <img src="/headerImg1.svg" alt="" width={500} className='headerImg1' />
         </div>
       </div>
 

@@ -44,6 +44,32 @@ const Faq = () => {
         />
         <FaqCard heading={data.heading} content={data.content} />
       </div>
+      <div className="faqs-container2">
+        <FaqCard
+          heading={data.heading}
+          content={data.content}
+          color="#FF5555"
+          text="white"
+        />
+
+        <FaqCard heading={data.heading} content={data.content} />
+        <FaqCard
+          heading={data.heading}
+          content={data.content}
+          color="#FF5555"
+          text="white"
+        />
+
+        <FaqCard heading={data.heading} content={data.content} />
+
+        <FaqCard
+          heading={data.heading}
+          content={data.content}
+          color="#FF5555"
+          text="white"
+        />
+        <FaqCard heading={data.heading} content={data.content} />
+      </div>
     </div>
   );
 };

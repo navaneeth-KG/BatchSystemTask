@@ -10,14 +10,14 @@ import Copyright from './components/Copyright/Copyright';
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Header/>
-      <Features/>
-      <Testimonial/>
-      <Faq/>      
-      <Cta/>
+      <Navbar />
+      <Header />
+      <Features />
+      <Testimonial />
+      <Faq />
+      <Cta />
       <Footer />
-      <Copyright/>
+      <Copyright />
     </div>
   );
 };
