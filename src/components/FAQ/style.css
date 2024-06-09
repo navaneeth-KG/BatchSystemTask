@@ -15,7 +15,7 @@
 .faq h1 {
   font-size: 48px;
 }
-.faq h3 {
+#light .faq h3 ,#dark .faq h3{
   font-size: 18px;
   letter-spacing: 5px;
   color: #ff5555;
@@ -28,6 +28,7 @@
 .faqs-container2{
     display: flex;
     flex-direction: column;
+    gap:15px;
 }
 
   .faq {

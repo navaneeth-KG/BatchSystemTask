@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
@@ -7,9 +8,8 @@ import Header from './components/Header/Header';
 import Testimonial from './components/Testimonial/Testimonial';
 import Features from './components/Features/Features';
 import Copyright from './components/Copyright/Copyright';
-
 import { useState } from 'react';
-import './App.css';
+
 const App = () => {
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
@@ -17,7 +17,7 @@ const App = () => {
   };
   return (
     <div className="app" id={theme}>
-      <Navbar theme={theme} toggleTheme={toggleTheme}/>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Header />
       <Features />
       <Testimonial />

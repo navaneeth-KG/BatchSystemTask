@@ -19,7 +19,7 @@
 .row h1 {
   font-size: 48px;
 }
-.row h3 {
+#light .row h3,#dark .row h3 {
   font-size: 18px;
   color: #ff5555;
   letter-spacing: 5px;

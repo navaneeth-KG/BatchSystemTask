@@ -26,9 +26,9 @@ const Navbar = ({ theme, toggleTheme }) => {
 
       <Button className="theme-btn" onClick={toggleTheme}>
         {theme == 'light' ? (
-          <i className="fa-solid fa-moon"></i>
+          <i className="fa-solid fa-moon" style={{fontSize:'24px'}}></i>
         ) : (
-          <i className="fa-solid fa-sun"></i>
+          <i className="fa-solid fa-sun"  style={{fontSize:'24px'}}></i>
         )}
       </Button>
 

@@ -1,12 +1,16 @@
 #dark {
-  background-color: rgb(85, 84, 84);
+  background-color: rgb(84, 84, 84);
 }
 #dark p {
   color: rgb(166, 167, 167);
 }
 #dark h1,
-h2,
-h3,
-h4 {
+#dark h2,
+#dark h3,
+#dark h4 {
   color: white;
+}
+
+#light h1,#light h2,#light h3,#light h4{
+    color:black;
 }
